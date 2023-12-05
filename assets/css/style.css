@@ -1,5 +1,6 @@
 /* Goggle font import*/
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;500;700;800&family=Roboto&display=swap');
+
 
 
   /* Asterisk wilcord selector to override default style added by the brower*/
@@ -16,9 +17,10 @@ body {
 
 .header {
     padding: 20px;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Roboto, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 . h1 ,  h1 .seo{
