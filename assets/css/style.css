@@ -17,10 +17,11 @@ body {
 }
 
 .header {
-    padding: 20px;
-    font-family: 'Montserrat Alternates, sans-serif;
+    padding:20px;
+    font-family: 'Roboto', sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+}
 }
 
 .header h1 {
@@ -36,8 +37,9 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Montserrat Alternates, sans-serif;
     font-size: 20px;
+    font-family: 'Montserrat Alternates, sans-serif;
+   
 }
 
 .header div ul {
@@ -82,16 +84,17 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/*Benefit*/
+.benefits {    {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Montserrat Alternates, sans-serif;
     background-color: #2589bd;
+    font-family: 'Montserrat Alternates, sans-serif;
+    
 }
 
 .benefit-lead {
@@ -142,33 +145,42 @@ p {
     max-width: 150px;
 }
 
+/* Search Engine optimization */
+
 .search-engine-optimization {
     margin-bottom: 20px;
+    color: #ffffff;
     padding: 50px;
     height: 300px;
-    font-family: 'Montserrat Alternates, sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    font-family: 'Montserrat Alternates, sans-serif;
+   
+ 
 }
+
+/* Online Reputation Management */
 
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
-    font-family: 'Montserrat Alternates, sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    height: 300px;
+    font-family: 'Montserrat Alternates, sans-serif;
+  
 }
+ /* social media-marketing */
 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
-    font-family:'Montserrat Alternates, sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    height: 300px;
+    font-family:'Montserrat Alternates, sans-serif;
+    
 }
-
+/*images*/
 .search-engine-optimization img {
     max-height: 200px;
 }
