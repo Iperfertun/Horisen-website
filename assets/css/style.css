@@ -9,34 +9,34 @@
     padding: 0;
     margin: 0;
 }
+
 /* General body */
 
 body {
-    background-color: #ffffff;
+    background-color: #d9dcd6;
 }
 
 .header {
     padding: 20px;
-    font-family: 'Roboto, sans-serif;
+    font-family: 'Montserrat Alternates, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    text-transform: uppercase;
 }
 
-. h1 ,  h1 .seo{
+.header h1 {
     display: inline-block;
     font-size: 48px;
-    color: #ffffff;
 }
 
-
-
+.header h1 .seo {
+    color: #d9dcd6;
+}
 
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: Montserrat Alternates', sans-serif;;
+    font-family: 'Montserrat Alternates, sans-serif;
     font-size: 20px;
 }
 
@@ -90,7 +90,7 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat Alternates, sans-serif;
     background-color: #2589bd;
 }
 
@@ -146,7 +146,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat Alternates, sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -155,7 +155,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat Alternates, sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -164,7 +164,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: Montserrat Alternates', sans-serif;
+    font-family:'Montserrat Alternates, sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -199,18 +199,10 @@ p {
 .footer {
     padding: 30px;
     clear: both;
-    font-family: Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat Alternates, sans-serif;
     text-align: center;
-
 }
 
 .footer h2 {
     font-size: 20px;
 }
-
-    /* Media query: large or landscape phones (576px and up) */
-    @media screen and (min-width: 576px) {
-        #photos {
-            column-count: 2;
-            column-gap: 0;
-        }
